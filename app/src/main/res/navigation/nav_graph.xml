@@ -16,9 +16,6 @@
         <action
             android:id="@+id/action_splashFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
-        <action
-            android:id="@+id/action_splashFragment_to_pictureFragment"
-            app:destination="@id/pictureFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -31,9 +28,6 @@
         <action
             android:id="@+id/action_loginFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
-        <action
-            android:id="@+id/action_loginFragment_to_pictureFragment"
-            app:destination="@id/pictureFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUpFragment"
@@ -49,9 +43,4 @@
         android:name="com.codelytical.flybuy.presentation.ui.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
-    <fragment
-        android:id="@+id/pictureFragment"
-        android:name="com.codelytical.flybuy.presentation.ui.PictureFragment"
-        android:label="fragment_picture"
-        tools:layout="@layout/fragment_picture" />
 </navigation>
