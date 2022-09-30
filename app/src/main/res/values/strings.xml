@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlyBuy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account">Don’t have any account? Sign Up here</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="username">Email</string>
+    <string name="rationale_camera">This app needs access to your camera so you can take pictures.</string>
+</resources>
